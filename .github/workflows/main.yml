@@ -1,0 +1,12 @@
+on:
+  push:
+    branches:
+     - master
+    
+    
+jobs:
+  build:
+    runs-on: Ubuntu-latest
+    steps:
+      - name: "printing Hello"
+        run: echo "Hello"
